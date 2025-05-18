@@ -1,0 +1,105 @@
+body {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: relative;
+}
+h1 {
+  font-size: 60px;
+  background-color: rgba(101, 58, 13, 0.544);
+  text-align: center;
+  width: 70%;
+  margin: 10% auto;
+  color: white;
+  border-radius: 20px;
+}
+form {
+  border: 2px solid rgba(101, 58, 13, 0.544);
+  box-shadow: 2px 3px 4px rgba(144, 70, 16, 1);
+
+  width: 60%;
+  margin: 15% auto 10% auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(101, 58, 13, 0.544);
+  height: fit-content;
+  width: 100%;
+  justify-content: space-evenly;
+
+  position: sticky;
+  top: 20px;
+}
+nav a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  height: fit-content;
+  background-color: rgba(144, 70, 16, 1);
+}
+
+nav a:hover {
+  background-color: bisque;
+  color: rgba(144, 70, 16, 1);
+}
+
+#submit {
+  background-color: rgba(144, 70, 16, 1);
+  border: 1px solid rgba(101, 58, 13, 0.544);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+#submit:hover {
+  background-color: white;
+  color: rgba(144, 70, 16, 1);
+}
+textarea {
+  height: 60px;
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+#fullname {
+  height: 40px;
+  width: 200px;
+}
+#lname {
+  font-size: 25px;
+}
+#insta,
+#face,
+#git {
+  text-align: center;
+  margin: 20px;
+  margin-top: 0 auto;
+  background-color: rgb(138, 85, 28);
+}
+
+footer {
+  height: 30vh;
+
+  text-align: center;
+  margin-top: 0 auto;
+  margin-top: 20%;
+  background-color: rgb(138, 85, 28);
+}
+
+footer p {
+  background-color: rgb(138, 85, 28);
+}
+footer a {
+  background-color: rgb(138, 85, 28);
+}

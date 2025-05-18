@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: bisque;
+}
+.continer {
+  height: 300vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(101, 58, 13, 0.544);
+  height: fit-content;
+  width: 100%;
+  justify-content: space-evenly;
+
+  position: sticky;
+  top: 20px;
+}
+nav a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  height: fit-content;
+  background-color: rgba(144, 70, 16, 1);
+}
+
+nav a:hover {
+  background-color: bisque;
+  color: rgba(144, 70, 16, 1);
+}
+h1 {
+  font-size: 60px;
+  background-color: rgba(101, 58, 13, 0.544);
+  text-align: center;
+  width: 70%;
+  margin: 10% auto;
+  color: white;
+  border-radius: 20px;
+}
+header {
+  position: relative;
+}
+.proverbsContiner {
+  margin: 20% auto 0% auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: autos;
+  width: 90%;
+
+  flex-wrap: wrap;
+
+  border: 2px solid rgba(101, 58, 13, 0.544);
+  box-shadow: 2px 3px 4px rgba(144, 70, 16, 1);
+  min-height: fit-content;
+}
+.proverbsContiner img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.proverbsContiner p {
+  text-align: center;
+}
+.proverbs {
+  border: 2px solid rgba(101, 58, 13, 0.544);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 40px;
+  flex-grow: 2;
+  flex-shrink: 2;
+
+  flex: 1 1 300px;
+}
+.prverbs-p {
+  margin: 10px;
+  font-size: 20px;
+}
+.detail {
+  color: rgba(101, 58, 13, 0.544);
+  cursor: pointer;
+  color: rgba(101, 58, 13, 0.544);
+}
+.proverbsContiner > div > div {
+  background-color: rgba(101, 58, 13, 0.544);
+  color: white;
+  display: none;
+}
+/* .detail:hover + .proverbs {
+  height: 300px;
+}
+.detail:hover + .definationP {
+  display: block;
+} */
+#insta,
+#face,
+#git {
+  text-align: center;
+  margin: 20px;
+  margin-top: 0 auto;
+  background-color: rgb(138, 85, 28);
+}
+
+footer {
+  height: 30vh;
+
+  text-align: center;
+  margin-top: 0 auto;
+  margin-top: 20%;
+  background-color: rgb(138, 85, 28);
+}
+
+footer p {
+  background-color: rgb(138, 85, 28);
+}
+footer a {
+  background-color: rgb(138, 85, 28);
+}
+@media screen and (max-width: 400px) {
+  /*  mobile styles */
+  .proverbsContiner {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .proverbs {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .proverbsContiner {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .proverbsContiner img {
+    height: auto;
+    max-width: 100%;
+    width: 100px;
+  }
+}
