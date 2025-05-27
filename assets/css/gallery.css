@@ -74,7 +74,7 @@ header {
   margin: 40px;
  flex: 2 2 auto; /* flex-grow, flex-shrink, flex-basis */
 
-  flex: 1 1 300px;
+  
 }
 .prverbs-p {
   margin: 10px;
@@ -90,12 +90,12 @@ header {
   color: white;
   display: none;
 }
-/* .detail:hover + .proverbs {
+.detail:hover + .proverbs {
   height: 300px;
 }
 .detail:hover + .definationP {
   display: block;
-} */
+} 
 #insta,
 #face,
 #git {
