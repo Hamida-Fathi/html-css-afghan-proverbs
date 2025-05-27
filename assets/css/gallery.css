@@ -72,8 +72,7 @@ header {
   justify-content: center;
   flex-flow: column wrap;
   margin: 40px;
-  flex-grow: 2;
-  flex-shrink: 2;
+ flex: 2 2 auto; /* flex-grow, flex-shrink, flex-basis */
 
   flex: 1 1 300px;
 }
