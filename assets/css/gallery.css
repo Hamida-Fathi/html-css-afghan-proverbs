@@ -46,7 +46,7 @@ header {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  margin: autos;
+  margin: auto;
   width: 90%;
 
   flex-wrap: wrap;
