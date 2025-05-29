@@ -90,12 +90,12 @@ header {
   color: white;
   display: none;
 }
-.detail:hover + .proverbs {
+/*.detail:hover + .proverbs {
   height: 500px;
 }
 .detail:hover + .definationP {
   display: block;
-} 
+} */
 #insta,
 #face,
 #git {
