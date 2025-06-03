@@ -82,8 +82,8 @@ main {
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s ease;
-  position: relative; /* Added for absolute positioning of definition */
-  min-height: 450px; /* Set a minimum height for proverb cards */
+  position: relative; 
+  min-height: 450px; 
 }
 
 .proverbs img {
@@ -118,14 +118,14 @@ main {
     58,
     13,
     0.9
-  ); /* Slightly darker for overlay effect */
+  ); 
   color: white;
   padding: 15px;
   margin-top: 10px;
   border-radius: 8px;
   display: none;
   text-align: justify;
-  position: absolute; /* Positioned absolutely */
+  position: absolute; 
   top: 0;
   left: 0;
   width: 100%;
